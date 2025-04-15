@@ -22,7 +22,7 @@ We tested clustering with the following transformations:
 
 - No processing (raw features)
 - Normalization
-- Power Transformation
+- Transformation
 - PCA (2 components)
 - Transformation + Normalization
 - Transformation + Normalization + PCA
@@ -44,14 +44,14 @@ Each clustering was evaluated using:
 - KMeans performed consistently well across all preprocessing strategies.
 - PCA improved clustering performance across all algorithms.
 - Mean Shift was sensitive to preprocessing and bandwidth, sometimes producing only one cluster.
-- `T+N+PCA` generally provided the best overall performance.
+- T+N+PCA generally provided the best overall performance.
 
 ---
 
 ## Repository Structure
 
-- `notebook.ipynb` – Jupyter Notebook with complete analysis and result tables
-- `README.md` – This file with project summary and key findings
+- notebook.ipynb – Jupyter Notebook with complete analysis and result tables
+- README.md – This file with project summary and key findings
 
 ---
 
